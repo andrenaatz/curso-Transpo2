@@ -1,0 +1,14 @@
+1) Escreva um programa que solicite dois números inteirors e em seguida escreva o valor do maior número informado. Utilize Math.max.
+2) Escreva um programa que solicite 3 números reais e em seguida apresente o resultado da média dos números informados.
+3) Escreva um programa que solicite a idade de um usuário e em seguida apresente a idade do usuário após 20 anos.
+4) Escreva um programa que solicite a idade do usuário em anos e apresente o valor da idade informada em  meses. (Ex 1 ano = 12 meses)
+5) Escreva um programa que solicite a idade do usuário em dias e em seguida apresente o valor em dias meses e anos. Considere que cada mês possui 30 dias e que um ano equivale a 12 meses.
+6) Escreva um programa que solicite o valor de um produto e o percentual de desconto, em seguida o programa deve apresentar o valor do desconto e o valor do produto após a aplicação do desconto.
+7) Escreva um programa que solicite 3 notas e em seguida calcule e apresente os seguintes dados:
+  a) O valor da média
+  b) O valor da maior nota (Math.max)
+  c) O valor da menor nota (Math.min
+
+8) Escreva um programa que solicite  a base e a altura de um triângulo e em seguida calcule o valor da área.
+9) Escreva um programa que solicite 3 notas e em seguida calcule a média ponderada aplicando os pesos 2, 3 e 5 respectivamente. Ao final o programa deve apresentar o resultado da média calculada.
+10) Escreva um programa que solicite o peso e a altura de uma pessoa e em seguida calcule o IMC desta pessoa. IMC = peso / (altura * altura).
