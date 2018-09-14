@@ -1,0 +1,31 @@
+1)Crie um programa que solicite o nome do usuário e em seguida informe aquantidae de letras do nome informado.
+2) Crie um programa que solicite 3 notas e em seguida calcule média das notas. Se a média for maior ou igual a 7 escreva "Aprovado" senão escreva "Reprovado"
+3)Crie um programa que solicite uma frase e em seguida apresente a frase digitata sem as vogais.
+4) Escreva um programa que solicite a idade do usuário e em seguida apresente uma mensagem informando se o usuário pode fazer a CNH. Caso o usuário não tenha idade suficiente deve ser apresentado uma mensagem informando quantos anos faltam para que ele possa solicitar a CNH.
+5) Escreva um programa que solicite um número e em seguida apresente uma mensagem informando se o número digitado foi "PAR" ou "Impar". Todo número par deve ter o resto da divisão por 2 igual a zero.
+6) Escreva um programa que solicite a idade, a altura e o peso de uma pessoa, em seguida calcule o IMC utilizando a fórmula IMC = peso / (altura * altura). O programa deve apresentar uma mensagem informando se o imc está, baixo, normal, ou obeso de acordo com a tabela  abaixo:
+
+Abaixo de 17	    "Muito abaixo do peso"
+Entre 17 e 18,49	"Abaixo do peso"
+Entre 18,5 e 24,99	"Peso normal"
+Entre 25 e 29,99	"Acima do peso"
+Entre 30 e 34,99	"Obesidade I"
+Entre 35 e 39,99	"Obesidade II (severa)"
+Acima de 40	        "Obesidade III (mórbida)"
+
+7) Escreva um programa que solicite o valor do salário de uma pessoa e calcule o valor do imposto de renda conforme os dados abaixo:
+
+até 1800. Isento
+de 1800.01 até 2400.00  7.5%;
+de 2400.01 até 3600.00  15%;
+acima de 3600.00        27%;
+
+
+
+
+
+
+
+
+
+
