@@ -1,0 +1,21 @@
+Utilizando o comando for execute os exercícios abaixo:
+
+01) Crie um programa que  solicite um número entre 1 e 20 e em seguida calcule e apresente o valor do  fatorial do número informado.
+02) Crie um programa que apresente os números pares entre 100 e 200;
+03) Crie um programa que solicite 5 números e em seguida escreva o valor do maior número informado.
+04) Crie um programa que solicite 5 números e em seguida apresente o valor da soma e da média.
+05) Crie um programa que solicite uma frase e em seguida apresente as letras dos índices impares.
+06) Crie um programa que solicite uma palavra e em seguida escreva a palavra de forma inversa. Ex: (Felipe => epileF)
+07) Crie um programa que imprima os valores abaixo no console:
+X
+XX
+XXX
+XXXX
+XXXXX
+
+08) Crie um programa que imprima os valores abaixo no console:
+#####
+####
+###
+##
+# 
