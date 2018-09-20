@@ -1,0 +1,22 @@
+Data a matriz abaixo calcule a soma dos valores da sua diagonal principal.
+|10,09,08|
+|07,09,10|
+|10,07,08|
+
+01) Escreva um programa que solicite 3 notas para uma turma de 10 alunos e em seguida calcule a média de cada aluno juntamente com a média da turma.
+Ao final o programa deve apresentar as 3 notas do aluno juntamente com sua média e posteriormente deve apresentar a média final da turma.
+
+
+02) Data a tabela abaixo:
+     meias  camisas  camisetas
+Jan  100     200        150
+Fev   75     260        100 
+Mar  150     200        250
+Abr   50     210        240
+
+Calcule as seguintes operações:
+  a) A quantidade de peças vendidas
+  b) A quantidade de meias vendidas
+  c) A quantidade de peças vendidas mês a mês
+  d) A quantidade de camisas + a quantidade de camisetas vendidas mês a Mês
+  e) O tipo de peça vais vendido em cada Mês
