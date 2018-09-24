@@ -1,0 +1,23 @@
+Declaração de Variáveis
+
+Toda variável deve começar por uma letra, um _ ou um $;
+A partir do segundo caracter pode conter letras, numeros, ou caracteres de conexão (_, $);
+Não são permitidos caracteres especiais(@,#,%,.,etc);
+Deve se evitar caracteres com acentuação;
+Não tem limite de tamanho;
+Não podem ser usados nomes de palavras reservadas;
+
+Convenções para a declaração de variáveis e métodos
+
+Devem ser escritas com letras minúsculas;
+Caso sejam formadas por palavras compostas, devem seguir o padrão CamelCase, onde a primeira palavra é definida em minúscula e as demais palavras são escritas apenas com a primeira letra Maiúscula.
+
+livro;
+pessoaFisica;
+comprovantePagamentoPessoaFisica;
+
+01) Crie uma classe Produto que possua os atributos nome e preco, a classe também deve possuir metodos de configuração e acesso para cada um dos atributos definidos.
+
+02)Crie uma classe Veiculo, que possua os atributos marca, modelo, cor, ano de fabricação e ano modelo. A classe também deve possuir metodos de configuração e acesso para cada um dos atributos definidos.
+
+03)Crie uma classe Aluno que deve possuir os atributos nome, telefone, matricula. A classe também deve possuir metodos de configuração e acesso para cada um dos atributos definidos.
