@@ -1,32 +1,24 @@
 package br.com.cursojava.aula013;
 
+import java.util.ArrayList;
+
 public class ContatoRepositorio {
 	private static int count = 1;
-	private static Contato[] contatos = new Contato[50];
-	private static int quantidade = 0;
+	private static ArrayList<Contato> contatos = new ArrayList<>();
+	
 	
 	public boolean adicionarContato(Contato contato) {
 		boolean resultado = false;
 		if(contato != null){
-			if(quantidade < contatos.length){
-				contato.setId(count++);
-				contatos[quantidade++] = contato;
-				resultado = true;
-			}
+			contato.setId(count++);
+			resultado = contatos.add(contato);
 		}
 		
 		return resultado;
 	}
 
-	public Contato[] buscarTodos() {
-		Contato[] retorno = new Contato[quantidade];
-		int index = 0;
-		for (Contato contato : contatos) {
-			if(contato != null && index < quantidade){
-				retorno[index++] = contato;
-			}
-		}
-		return retorno;
+	public ArrayList<Contato> buscarTodos() {
+		return contatos;
 	}
 
 }

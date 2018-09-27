@@ -1,5 +1,6 @@
 package br.com.cursojava.aula013;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CadastroContato {
@@ -57,7 +58,7 @@ public class CadastroContato {
 		System.out.println("======== FILTRAR POR NOME =============");
 		System.out.println("Nome:");
 		String nome = teclado.nextLine();
-		Contato[] lista = controller.filtrarPorNome(nome);
+		ArrayList<Contato> lista = controller.filtrarPorNome(nome);
 		for (Contato contato : lista) {
 			System.out.printf("%d - %s - %s - %s \n",contato.getId(),contato.getNome(),contato.getEmail(),contato.getTelefone());
 		}
@@ -65,7 +66,7 @@ public class CadastroContato {
 	}
 
 	private void listarContatos() {
-		Contato[] lista = controller.buscarTodos();
+		ArrayList<Contato> lista = controller.buscarTodos();
 		System.out.println("======== LISTA DE CONTATOS =============");
 		for (Contato contato : lista) {
 			System.out.printf("%d - %s - %s - %s \n",contato.getId(),contato.getNome(),contato.getEmail(),contato.getTelefone());

@@ -1,5 +1,6 @@
 package br.com.cursojava.aula013;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ContatoController {
@@ -19,21 +20,20 @@ public class ContatoController {
 		return valido;
 	}
 
-	public Contato[] buscarTodos() {
-		
+	public ArrayList<Contato> buscarTodos() {
 		return repositorio.buscarTodos();
 	}
 
-	public Contato[] filtrarPorNome(String nome) {
-		int quantidade = 0;
-		Contato[] todos = buscarTodos();
-		Contato[] lista = new Contato[todos.length];
+	public ArrayList<Contato> filtrarPorNome(String nome) {
+		ArrayList<Contato> todos = buscarTodos();
+		ArrayList<Contato> lista = new ArrayList<>();
+				
 		for (Contato contato : todos) {
 			if(contato != null && contato.getNome() != null && contato.getNome().startsWith(nome)){
-				lista[quantidade++] = contato;
+				lista.add(contato);
 			}
 		}
-		return Arrays.copyOf(lista, quantidade);
+		return lista;
 	}
 
 }
