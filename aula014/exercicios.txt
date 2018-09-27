@@ -1,0 +1,22 @@
+Crie uma aplicação para cadastro de Veículos, cada veículo deve possuir 
+as seguintes propriedades:
+id:Integer
+marca:String
+modelo:String
+placa:String
+anoFabricacao: int
+anoModelo: int
+cor: String
+
+O sistema deve permitir o cadastro de um novo, veículo, a listagem de 
+todos os veículos, a pesquisa de veículos por marca, a pesquisa de 
+veículos por modelo, a pesquisa de veículos por placa, a pesquisa de 
+veículos por ano de fabricação e a remoção de veículos.
+
+marca e modelo são propriedades obrigatórias e devem possuir  ao menos 3 
+caractes não vazios (espaços).
+a placa é uma propriedade obrigatória, e deve possuir obrigatóriamente 7 
+caracteres.
+O ano de fabricação deve ser maior ou igual a 2000.
+o ano modelo não deve ser menor que o ano de fabricação.
+
