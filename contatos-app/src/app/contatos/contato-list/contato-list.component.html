@@ -1,0 +1,34 @@
+<div>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Contatos
+        </h1>
+        <h2 class="subtitle">
+          Lista de contatos
+        </h2>
+      </div>
+    </div>
+  </section>
+  <div class="box">
+    <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contato of contatos">
+          <td>{{contato.id}}</td>
+          <td><a [routerLink]="[contato.id]">{{contato.nome}}</a></td>
+          <td>{{contato.email}}</td>
+          <td>{{contato.telefone}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
