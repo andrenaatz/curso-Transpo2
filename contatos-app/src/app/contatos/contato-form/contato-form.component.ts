@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import  { Router, ActivatedRoute } from '@angular/router';
 import {ContatoService} from '../contato.service';
+import {Contato} from '../contato';
 
 @Component({
   selector: 'app-contato-form',
@@ -34,7 +35,15 @@ export class ContatoFormComponent implements OnInit {
   }
 
   onSubmit(){
-    console.log(this.contatoForm.value);
+     const {id,nome,email,telefone } = this.contatoForm.value;
+     const contato = new Contato(parseInt(id) || undefined,nome,email,telefone);
+     this.service.salvar(contato)
+     .subscribe((contato:Contato)=>{
+       this.router.navigateByUrl('contatos');
+     },
+    (error)=>{
+      alert('falha ao salvar os dados do contato');
+    })
   }
 
 }

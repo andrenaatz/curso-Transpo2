@@ -12,6 +12,7 @@
     </div>
   </section>
   <div class="box">
+    <a class="button is-primary" [routerLink]="['novo']">Novo</a>
     <table class="table is-bordered is-striped is-hoverable is-fullwidth">
       <thead>
         <tr>
@@ -19,6 +20,7 @@
           <th>Nome</th>
           <th>Email</th>
           <th>Telefone</th>
+          <th>Opções</th>
         </tr>
       </thead>
       <tbody>
@@ -27,6 +29,7 @@
           <td><a [routerLink]="[contato.id]">{{contato.nome}}</a></td>
           <td>{{contato.email}}</td>
           <td>{{contato.telefone}}</td>
+          <td><button class="button is-danger" (click)="remover(contato.id)">Remover</button></td>
         </tr>
       </tbody>
     </table>

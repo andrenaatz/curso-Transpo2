@@ -18,4 +18,16 @@ export class ContatoService {
     return this.http.get<Contato>(`/api/contatos/${id}`)
   }
 
+  salvar(contato:Contato):Observable<Contato>{
+    if(!contato.id){
+      return this.http.post<Contato>('/api/contatos',contato);
+    }else{
+      return this.http.put(`/api/contatos/${contato.id}`,contato);
+    }
+  }
+
+  remover(id:any){
+    return this.http.delete(`/api/contatos/${id}`);
+  }
+
 }
